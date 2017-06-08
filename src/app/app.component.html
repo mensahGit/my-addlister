@@ -1,0 +1,24 @@
+<div class="wrapper">
+<div class="main">
+  <h1>Mensah's AddLister</h1>
+<h3>{{title}}</h3>
+  <div class="addItem">
+    <div class="form-group">
+    <input type="text" [(ngModel)]= "newItem" placeholder="Add Item"  class="addText" class="input-group" class="form-control" >
+  <button id="btn-float" class="btn btn-warning btn-block"  (click)="pushItem()">Add</button>
+  </div>
+  </div>
+
+<br>
+<hr>
+
+  <ul class="boner">
+    <li *ngFor="let item of items; let i=index">
+      {{item}}
+      <span class="boner" (click)="removeItem(i)">x</span>
+    </li>
+  </ul>
+
+
+</div><!-- END MAIN -->
+</div><!-- END WRAPPER -->

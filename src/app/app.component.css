@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto');
+
+.wrapper{
+  margin: 0 auto;
+  width: 1200px;
+  height: 720px;
+  padding: 12px;
+  border: 3px solid red;
+  background-color: #CC6600;
+}
+
+.main {
+  width:620px;
+  text-align:center;
+  margin:0 auto;
+  border:12px solid #000000;
+
+  margin-top:20px;
+  font-family:'Open Sans', sans-serif;
+  font-size: 50px;
+}
+
+h1 {
+  text-align:center;
+  background-color:#FF9900;
+  padding:30px 0px;
+  margin-top:0px;
+  color:white;
+}
+
+.addItem {
+  position:relative;
+  padding: 12px;
+  height:30px;
+}
+
+.addText {
+  width:60%;
+  height: 30px;
+  padding:25px;
+  font-size:20px;
+}
+
+/*
+.addText button {
+  width:50px;
+  height: 45px;
+  padding:5px;
+}
+*/
+
+#btn-float {
+  float:right;
+  padding:5px;
+  border: 3px solid green;
+}
+
+ul {
+  list-style: none;
+  font-size:20px;
+  color:#686868;
+  margin-left: -40px;
+  margin-bottom: 0px;
+
+}
+
+li {
+  border-bottom: 1px solid #bfbfbf;
+  background-color:#d7d7d7;
+  padding:10px 0px;
+  margin-bottom: 5px;
+}
+
+span {
+ cursor:pointer;
+ position:relative;
+ float:right;
+ margin-right:10px;
+
+}
+
+.boner {
+
+}
+
+.suck {
+  background-color: #FF9900;
+  width:85px;
+  height: 25px;
+}
